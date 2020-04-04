@@ -1,355 +1,969 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Personal</title>
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Personal</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/jquery-ui.css">				
-			<link rel="stylesheet" href="css/nice-select.css">							
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">					
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>	
-		  <header id="header">
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="">Level 2 </a>
-				            <ul>
-				              <li><a href="#">Item One</a></li>
-				              <li><a href="#">Item Two</a></li>
-				            </ul>
-				          </li>					                		
-			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
-			  
-			<!-- start banner Area -->
-			<section class="about-banner">
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
-								About Me				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Me</a></p>
-						</div>	
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->	
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Chart.min.css">
+    <script src="js/Chart.min.js"></script>
+    <link rel="stylesheet" href="css/timeline.css">
+    <style type="text/css">
+        .generic-blockquote {
+            padding: 5px;
+        }
+    </style>
+    <script>
+      let transparentize = function (color, opacity) {
+        let alpha = opacity === undefined ? 0.5 : 1 - opacity;
+        return Color(color).alpha(alpha).rgbString();
+      };
 
-			<!-- Start home-about Area -->
-			<section class="home-about-area section-gap">
-				<div class="container">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-lg-6 col-md-6 home-about-left">
-							<img class="img-fluid" src="img/about-img.png" alt="">
-						</div>
-						<div class="col-lg-5 col-md-6 home-about-right">
-							<h6>About Me</h6>
-							<h1 class="text-uppercase">Personal Details</h1>
-							<p>
-								Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-							</p>
-							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
-						</div>
-						<div class="col-lg-12 pt-60">
-							<p>
-								It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological advancement are concerned. The history of video game is as interesting as a fairy tale. 
-							</p>
-							<p>
-								The quality of today’s video game was not at all there when video game first conceptualized and played ever. During the formulative years, video games were created by using various interactive electronic devices with various display formats. The first ever video game was designed in 1947 by Thomas T. Goldsmith Jr. 								
-							</p>
-							<h4 class="pt-30">Tools Expertness</h4>	
-						</div>
-					</div>
-					<div class="row skillbar-wraps">					
-						<div class="col-lg-6 skill-left">
-							<div class="single-skill">
-								<p>
-									After Effects 85%
-								</p>
-								<div class="skill" data-width="85"></div>
-							</div>
-							<div class="single-skill">
-								<p>
-									Photoshop 90%
-								</p>
-								<div class="skill" data-width="90"></div>
-							</div>
-							<div class="single-skill">
-								<p>
-									Illustrator 70%
-								</p>
-								<div class="skill" data-width="70"></div>
-							</div>																				
-						</div>
-						<div class="col-lg-6 skill-right">
-							<div class="single-skill">
-								<p>
-									Sublime 95%
-								</p>
-								<div class="skill" data-width="95"></div>
-							</div>								
-							<div class="single-skill">
-								<p>
-									Sketch 85%
-								</p>
-								<div class="skill" data-width="85"></div>
-							</div>
-							
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End home-about Area -->	
+      let presets = window.chartColors = {
+        red: 'rgb(255, 99, 132)',
+        orange: 'rgb(255, 159, 64)',
+        yellow: 'rgb(255, 205, 86)',
+        green: 'rgb(75, 192, 192)',
+        blue: 'rgb(54, 162, 235)',
+        purple: 'rgb(153, 102, 255)',
+        grey: 'rgb(201, 203, 207)'
+      };
 
-			<!-- Start timeline Area -->
-			<section class="timeline pb-120">
-            <div class="text-center">
-                <div class="menu-content pb-70">
-                    <div class="title text-center">
-                        <h1 class="mb-10">My Qualifications</h1>
-                        <p>Who are in extremely love with eco friendly system.</p>
+      let print_level = function (value) {
+        if (value === 0)
+          return 'Basic';
+        else if (value === 2)
+          return 'Basic';
+        else if (value === 4)
+          return 'Novice';
+        else if (value === 6)
+          return 'Intermediate';
+        else if (value === 8)
+          return 'Advanced';
+        else if (value === 10)
+          return 'Expert';
+        else
+          return "";
+      };
+
+      let print_level_tooltip = function (value) {
+        if (value <= 2)
+          return 'Basic';
+        else if (value <= 4)
+          return 'Novice';
+        else if (value <= 6)
+          return 'Intermediate';
+        else if (value <= 8)
+          return 'Advanced';
+        else
+          return 'Expert';
+      };
+
+      let percentage_level_tooltip = function (value) {
+        if (value === 0)
+          return 0;
+        else if (value <= 2)
+          return 100 * value / 2;
+        else if (value <= 4)
+          return 100 * (value - 2) / 2;
+        else if (value <= 6)
+          return 100 * (value - 4) / 2;
+        else if (value <= 8)
+          return 100 * (value - 6) / 2;
+        else
+          return 100 * (value - 8) / 2;
+      };
+
+      let options = {
+        maintainAspectRatio: true,
+        spanGaps: false,
+        elements: {
+          line: {
+            tension: 0.000001
+          }
+        },
+        scale: {
+          angleLines: {
+            display: true,
+            lineWidth: 0.5,
+            color: 'rgba(128, 128, 128, 0.2)'
+          },
+          ticks: {
+            beginAtZero: true,
+            callback: function (value, index, values) {
+              return print_level(value);
+            },
+            fontSize: 8
+          },
+        },
+        legend: {
+          position: 'bottom',
+          labels: {
+            boxWidth: 20
+          }
+        },
+        title: {
+          display: true,
+          text: 'Custom Chart Title'
+        },
+        tooltips: {
+          callbacks: {
+            label: function (tooltipItem, data) {
+              let v = data['datasets'][tooltipItem['datasetIndex']]['data'][tooltipItem['index']];
+              return print_level_tooltip(v);
+            },
+            title: function (tooltipItem, data) {
+              return "";
+            },
+            afterLabel: function (tooltipItem, data) {
+              let v = data['datasets'][tooltipItem['datasetIndex']]['data'][tooltipItem['index']];
+              let pct = percentage_level_tooltip(v)
+              return "( " + pct + "% )";
+            }
+          }
+        }
+      };
+    </script>
+</head>
+<body>
+<header id="header">
+    <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="img/salmuz.png"
+                         style="height: 51px;
+							 		margin-bottom: -15px;
+							 		margin-top: -15px;"
+                         alt="" title=""/>
+                </a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="papers.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="comingsoon.html">Software</a></li>
+                    <li class="menu-has-children"><a href="#">Blog</a>
+                        <ul>
+                            <li><a href="comingsoon.html">Spanish</a></li>
+                            <li><a href="comingsoon.html">English</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </div>
+</header>
+<!-- #header -->
+
+<!-- start banner Area -->
+<section class="about-banner">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+                <h2 class="text-white">
+                    About Me
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+
+<!-- Start home-about Area -->
+<section class="home-about-area section-gap" style="margin-top: 20px">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-5 col-md-6 home-about-right text-center">
+                <img class="img-fluid rounded-circle" src="img/ycarranz.jpg" alt="">
+            </div>
+            <div class="col-lg-7 col-md-6 home-about-right">
+                <h3 class="text-uppercase">Me </h3><br/>
+                <p class="text-justify" style="max-width:95% !important">
+                    Passionate about data sciences, I first completed my <b>bachelor's in Computer Science
+                    from 2004-2009</b> in Peru, and then I worked as a developer from 2009 to 2013,
+                    before obtaining a <b>master's degree in Computer Science in 2015</b> , and
+                    in <b>Biostatistics in 2017</b> , both from Montpellier 2 University of science.
+                    <br/>&nbsp;<br/>
+                    Since 2017, I am pursuing a <b>PhD in the University of Applied
+                    Sciences for Technology Compiègne (UTC)</b>, in the Heuristic and Diagnostic of Complex
+                    Systems (Heudiasyc) Laboratory. My research focus on machine learning issues (both theoretically
+                    and practically), and more specifically on the development of methods allowing for
+                    robust and cautious predictions, in particular for the case of structured output spaces
+                    (e.g. multi-class, ranking and multi-label classification) .
+                    <br/>&nbsp;<br/>
+                    I have also been focusing, a portion of my time, on the following topics:
+                    stochastic process, measure theory, gamble theory, analysis of Boolean functions,
+                    and on other related topics.
+                </p>
+                <a href="#detail" class="primary-btn text-uppercase"
+                   style="margin-top: -10px">
+                    View Full Details
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End home-about Area -->
+<section class="testimonial-area section-gap"
+         style="padding-bottom: 30px !important;
+                margin-top: 50px !important;
+				background-color: transparent !important">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content  col-lg-12">
+                <div class="title text-center">
+                    <h2 class="mb-10">Skills</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row"><br/></div>
+        <div class="row">
+            <div class="active-skills">
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;"
+                     data-hash="firstitem">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper" style="margin: auto">
+                            <canvas id="chart-0" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          var data = {
+                            labels: ['Listening', 'Writing', 'Speaking', 'Reading'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.red),
+                              borderColor: presets.red,
+                              data: [7, 5, 5, 7],
+                              label: 'English',
+                              fill: -1
+                            }, {
+                              backgroundColor: transparentize(presets.orange),
+                              borderColor: presets.orange,
+                              data: [10, 9, 9, 10],
+                              label: 'Spanish',
+                              fill: -1
+                            }, {
+                              backgroundColor: transparentize(presets.blue),
+                              borderColor: presets.blue,
+                              data: [8, 8, 8, 9],
+                              label: 'French',
+                              fill: -1
+                            }, {
+                              backgroundColor: transparentize(presets.grey),
+                              borderColor: presets.grey,
+                              data: [0, 2, 1, 2],
+                              label: 'Dutch',
+                              fill: -1
+                            }]
+                          };
+                          optionsLang = Object.assign({}, options);
+                          optionsLang.title.text = "Language";
+                          new Chart('chart-0', {
+                            type: 'radar',
+                            data: data,
+                            options: optionsLang
+                          });
+                        </script>
                     </div>
                 </div>
-            </div>				
-			  <ul>
-			    <li>
-			      <div class="content">
-			        <h4>
-			          <time>Masters in Graphics & Fine Arts</time>
-			        </h4>
-			        <p><b>Session:</b> 2010-11</p>
-			        <p><b>Result:</b> 3.78 (In the Scale of 4.00)</p>
-			      </div>
-			    </li>
-			    <li>
-			      <div class="content">
-			      	<img class="img-fluid mx-auto d-block mb-30" src="img/about/c-logo.png" alt="">
-			        <h4>
-			          <time>Creative Content Developer</time>
-			        </h4>
-			        <p>July 2015 to Present</p>
-			      </div>
-			    </li>
-			    <li>
-			      <div class="content">
-			        <h4>
-			          <time>Bachelor in Graphics & UI/UX</time>
-			        </h4>
-			        <p><b>Session:</b> 2006-09</p>
-			        <p><b>Result:</b> 3.40 (In the Scale of 4.00)</p>
-			      </div>
-			    </li>
-			    <li>
-			      <div class="content">
-			      	<img class="img-fluid mx-auto d-block mb-30" src="img/about/c-logo.png" alt="">
-			        <h4>
-			          <time>Senior UI/UX Designer</time>
-			        </h4>
-			        <p>July 2015 to Present</p>
-			      </div>
-			    </li>
-			    <li>
-			      <div class="content">
-			        <h4>
-			          <time>Diploma in Fine Arts & Printing</time>
-			        </h4>
-			        <p><b>Session:</b> 2003-06</p>
-			        <p><b>Result:</b> 4.94 (In the Scale of 5.00)</p>
-			      </div>
-			    </li>
-			  </ul>
-			</section>		
-
-			<!-- End timeline Area -->
-
-
-			<!-- Start testimonial Area -->
-		    <section class="testimonial-area section-gap">
-		        <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-70 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Client’s Feedback About Me</h1>
-		                        <p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="row">
-		                <div class="active-testimonial">
-		                    <div class="single-testimonial item d-flex flex-row">
-		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
-		                        </div>
-		                        <div class="desc">
-		                            <p>
-		                                Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.		     
-		                            </p>
-		                            <h4>Harriet Maxwell</h4>
-		                            <p>CEO at Google</p>
-		                        </div>
-		                    </div>
-		                    <div class="single-testimonial item d-flex flex-row">
-		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
-		                        </div>
-		                        <div class="desc">
-		                            <p>
-		                                A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.
-		                            </p>
-		                            <h4>Carolyn Craig</h4>
-		                            <p>CEO at Facebook</p>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </section>
-		    <!-- End testimonial Area -->			
-
-		    <!-- Start brands Area -->
-		    <section class="brands-area">
-		        <div class="container">
-		            <div class="brand-wrap">
-		                <div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src="img/l1.png" alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src="img/l2.png" alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src="img/l3.png" alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src="img/l4.png" alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src="img/l5.png" alt=""></a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </section>
-		    <!-- End brands Area -->	
-
-            <!-- start footer Area -->
-            <footer class="footer-area section-gap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>About Me</h4>
-                                <p>
-                                    We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
-                                </p>
-                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper" style="margin: auto;">
+                            <canvas id="chart-1" width="100%" height="80%"></canvas>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>Newsletter</h4>
-                                <p>Stay updated with our latest trends</p>
-								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form> 
-								</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                            <div class="single-footer-widget">
-                                <h4>Follow Me</h4>
-                                <p>Let us be social</p>
-                                <div class="footer-social d-flex align-items-center">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                                    <a href="#"><i class="fa fa-behance"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                        <script>
+                          let newdata = {
+                            labels: ['Java', 'Python', 'JavaScript', 'Bash', 'C/C++',
+                              'PHP', 'PL/SQL', 'R'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.red),
+                              borderColor: presets.red,
+                              data: [9, 7, 8, 3, 5, 4, 8, 7],
+                            }]
+                          };
+                          let newoptionProg = Object.assign({}, options);
+                          newoptionProg.legend.display = false;
+                          newoptionProg.scale.ticks.beginAtZero = true;
+                          newoptionProg.scale.ticks.max = 10;
+                          newoptionProg.elements.line.tension = 0.2;
+                          newoptionProg.title.text = "Programming languages";
+                          new Chart('chart-1', {
+                            type: 'radar',
+                            data: newdata,
+                            options: newoptionProg
+                          });
+                        </script>
                     </div>
                 </div>
-            </footer>
-            <!-- End footer Area -->		
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>	
-            <script src="js/isotope.pkgd.min.js"></script>			
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/simple-skillbar.js"></script>							
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper"
+                             style="margin: auto;">
+                            <canvas id="chart-ds" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          let newdataSc = {
+                            labels: ['Mathematics', 'Statistics', 'Optimization',
+                              'NLP/Text Mining', 'Supervised Learning',
+                              'Unsupervised Learning', 'Algorithms', 'Viz tools',
+                              'DB. SQL/NoSQL', 'MapReduce', 'Business Analytic',
+                              'Business Comunication', 'Project Management'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.purple),
+                              borderColor: presets.purple,
+                              data: [7, 8, 8, 6, 8, 5, 8, 6, 9, 6, 7, 7, 6]
+                            }]
+                          };
+                          let newoptionSc = Object.assign({}, newoptionProg);
+                          newoptionSc.elements.line.tension = 0.1;
+                          newoptionSc.title.text = "Data Science";
+                          new Chart('chart-ds', {
+                            type: 'radar',
+                            data: newdataSc,
+                            options: newoptionSc
+                          });
+                        </script>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper"
+                             style="margin: auto;">
+                            <canvas id="chart-me" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          let newdataMeth = {
+                            labels: ['PMBOK', 'Kanban/Scrum', 'IBM RUP', 'Continuous integration', 'ITIL-v3'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.yellow),
+                              borderColor: presets.yellow,
+                              data: [5, 4, 4, 7, 5]
+                            }]
+                          };
+                          let newoptionMeth = Object.assign({}, newoptionProg);
+                          newoptionMeth.elements.line.tension = 0.1;
+                          newoptionMeth.title.text = "Methodology";
+                          new Chart('chart-me', {
+                            type: 'radar',
+                            data: newdataMeth,
+                            options: newoptionMeth
+                          });
+                        </script>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper"
+                             style="margin: auto;">
+                            <canvas id="chart-db" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          let newdataDatabase = {
+                            labels: ['MongoDB', 'Oracle', 'Postgres', 'Firebird', 'Microsoft SQL'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.green),
+                              borderColor: presets.green,
+                              data: [8, 8, 7, 5, 4]
+                            }]
+                          };
+                          let newoptionDatabase = Object.assign({}, newoptionProg);
+                          newoptionDatabase.elements.line.tension = 0.1;
+                          newoptionDatabase.title.text = "Database";
+                          new Chart('chart-db', {
+                            type: 'radar',
+                            data: newdataDatabase,
+                            options: newoptionDatabase
+                          });
+                        </script>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper"
+                             style="margin: auto;">
+                            <canvas id="chart-net" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          let newdataNet = {
+                            labels: ['Samba', 'Squid', 'Apache', 'DHCP', 'Iptables', 'BIND'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.orange),
+                              borderColor: presets.orange,
+                              data: [6, 9, 6, 4, 5, 4],
+                            }]
+                          };
+                          let newOptionNet = Object.assign({}, newoptionProg);
+                          newOptionNet.elements.line.tension = 0.1;
+                          newOptionNet.title.text = "Network";
+                          new Chart('chart-net', {
+                            type: 'radar',
+                            data: newdataNet,
+                            options: newOptionNet
+                          });
+                        </script>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row"
+                     style="padding: 0px !important;" data-hash="lastitem">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper"
+                             style="margin: auto;">
+                            <canvas id="chart-last" width="100%" height="80%"></canvas>
+                        </div>
+                        <script>
+                          let newdataDev = {
+                            labels: ['Git', 'Subversion', 'Jenkins', 'Jira', 'Mailing-list', 'Chat', 'Shell'],
+                            datasets: [{
+                              backgroundColor: transparentize(presets.blue),
+                              borderColor: presets.blue,
+                              data: [9, 8, 6, 5, 9, 10, 9],
+                            }]
+                          };
+                          let newoptionDev = Object.assign({}, newoptionProg);
+                          newoptionDev.elements.line.tension = 0.1;
+                          newoptionDev.title.text = "Dev. Tools";
+                          new Chart('chart-last', {
+                            type: 'radar',
+                            data: newdataDev,
+                            options: newoptionDev
+                          });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- End timeline Area -->
+<section style="margin-top: 50px">
+    <div class="container" id="detail">
+        <div class="text-center">
+            <div class="menu-content">
+                <div class="title text-center">
+                    <h2 class="mb-10">Education and Work Experience</h2>
+                </div>
+            </div>
+        </div>
+        <div class="pres-timeline" id="this-timeline">
+            <!-- ###   -->
+            <!--   <div class="periods-section"> -->
+            <div class="periods-container">
+                <section class="period-single" period="period1">
+                    <h4 class="year">2004 – 2009</h4>
+                    <h2 class="title">
+                        Bachelor in Computer Science,<br/>
+                        <b>Universidad Nacional Mayor de San Marcos</b><br/>
+                        Lima - Peru. <img src="img/peru.png" width="24" alt="Peru"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period2">
+                    <h4 class="year">2009 - 2012</h4>
+                    <h2 class="title">
+                        Senior Analyst Developer<br/>
+                        <b>ECKERD PERU S.A.</b><br/>
+                        Lima - Peru. <img src="img/peru.png" width="24" alt="Peru"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period3">
+                    <h4 class="year"> 2012 (5 months)</h4>
+                    <h2 class="title">
+                        Solutions Analyst<br/>
+                        <b>Everis S.A.C</b><br/>
+                        Lima - Peru. <img src="img/peru.png" width="24" alt="Peru"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period4">
+                    <h4 class="year"> 2013 (6 months)</h4>
+                    <h2 class="title">
+                        Java Developer<br/>
+                        <b>CodinGame</b><br/>
+                        Montpellier - Peru. <img src="img/france.png" width="24" alt="Peru"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period5">
+                    <h4 class="year">2013 – 2015</h4>
+                    <h2 class="title">
+                        M.S in Computer Science<br/>
+                        <b>Université Montpellier II</b><br/>
+                        Montpellier - France. <img src="img/france.png" width="24" alt="France"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period6">
+                    <h4 class="year">2015 – 2017</h4>
+                    <h2 class="title">
+                        M.S in Applied Mathematics (Biostatistics)<br/>
+                        <b>Université Montpellier</b><br/>
+                        Montpellier - France. <img src="img/france.png" width="24" alt="France"/>
+                    </h2>
+                </section>
+                <section class="period-single" period="period7">
+                    <h4 class="year">2017 – Currently</h4>
+                    <h2 class="title">
+                        PhD Candidate in Computer Science<br/>
+                        <b>University of Applied Sciences for Technology Compiègne</b><br/>
+                        Compiègne - France. <img src="img/france.png" width="24" alt="France"/>
+                    </h2>
+                </section>
+                <div class="btn-back"></div>
+                <div class="btn-next"></div>
+            </div>
+            <!--   </div> -->
+            <!-- ### -->
+            <!--   <div class="timeline-section"> -->
+            <div class="timeline-container">
+                <!--     # timeline graphic place holder - fill with js -->
+                <div class="timeline"></div>
+                <div class="btn-back">
+                    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h30v30H0z"/>
+                        <path fill="#D8D8D8" fill-rule="evenodd"
+                              d="M11.828 15l7.89-7.89-2.83-2.828L6.283 14.89l.11.11-.11.11L16.89 25.72l2.828-2.83"/>
+                    </svg>
+                </div>
+                <div class="btn-next">
+                    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h30v30H0z"/>
+                        <path fill="#D8D8D8" fill-rule="evenodd"
+                              d="M18.172 14.718l-7.89-7.89L13.112 4l10.606 10.607-.11.11.11.11-10.608 10.61-2.828-2.83 7.89-7.89"/>
+                    </svg>
+                </div>
+            </div>
+            <!--   </div> -->
+            <!-- ### -->
+            <!--   <div class="cards-section"> -->
+            <div class="cards-container">
+                <section class="card-single active" period="period1">
+                    <h4 class="year">2004</h4>
+                    <div>
+                        <img src="img/san_marcos.png"
+                             style="width:200px"
+                             alt="Universidad Nacional Mayor de San Marcos"/>
+                    </div>
+                </section>
+                <section class="card-single" period="period1">
+                    <h4 class="year">2006 (6 months) - Internship</h4>
+                    <h2 class="title">
+                        <b>Network Administrator</b><br/>
+                        Computer center at UNMSM <br/>
+                        Lima - Peru. <img src="img/peru.png" width="24" alt="Peru"/><br/>
+                    </h2>
+                    <div style="max-width: 230px">
+                        <div style="float:left;">
+                            <p style="max-width: 230px;text-align: justify;font-size:12px">
+                                Implementation of a Proxy Server (delay pools, acls, squidguard, sarg),
+                                Samba File Server, Firewall Server (DNAT, SNAT, Iptables)
+                            </p>
+                        </div>
+                        <div>
+                            <img src="img/cinfo.jpeg"
+                                 style="width:200px;float:left"
+                                 alt="Centro de Informatica - UNMSM"/>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-single" period="period1">
+                    <h4 class="year">2007 - 2008</h4>
+                    <h2 class="title">
+                        <b>Java Software Engineer</b><br/>
+                        Computer center at UNMSM <br/>
+                        Lima - Peru. <img src="img/peru.png" width="24" alt="Peru"/><br/>
+                    </h2>
+                    <div style="max-width: 300px">
+                        <div style="float:left;">
+                            <ul class="unordered-list">
+                               <li> Maintenance of Firebird Database. </li>
+                               <li> Maintenance of Legacy Systems:
+                                Administrative Management and Student Enrollment System for the
+                                laboratories of the Faculty of Physical Sciences.
+                               </li>
+                               <li>
+                                   Analysis, design and implementation of Sales and
+                                   Inventory Control System, Online Exam System and
+                                   Web Security System, using the technologies J2EE/JSF.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-4" period="period2">
+                    <h4 class="year">Works</h4>
+                    <div class="content">
+                        <div style="float:left;">
+                            <ul class="unordered-list">
+                                <li>Coordinate and manage the integration of the Clinical
+                                    Analysis Sale module for the points of sales (~450 clients).
+                                </li>
+                                <li>Supervise the implementation of the Order Delivery System with GPS.</li>
+                                <li>
+                                    Requirements, analysis, design, implementation and maintenance of the
+                                    Legacy Systems, using Client/Server Architecture.
+                                </li>
+                                <li>Migration from the old Oracle ERP to SAP R/3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period2">
+                    <h4 class="year">Formation - 2011 (8 months)</h4>
+                    <h2 class="title">
+                        <b>Diploma Course in Project Management</b><br/>
+                        Instituto San Ignacio de Loyola  <br/>
+                    </h2>
+                    <div class="content">
+                        <div style="float:left;">
+                            Project Management based on the focus of the Project Management Institute PMI
+                        </div>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period3">
+                    <h4 class="year">Works</h4>
+                    <div class="content">
+                        <p>
+                            Requirements analysis, design and implementation of information systems
+                            in the BCP bank, using Web Technologies, Web Services and Client/Server
+                            Architecture.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period4">
+                    <h4 class="year">Works</h4>
+                    <div>
+                        <ul class="unordered-list">
+                            <li>
+                                <b>Implementation of a system to detect cheaters in programming competitions.</b><br/>
+                                Programming contests are online events hosting developers from around the
+                                world so that they can solve problems in a timely manner. The objective
+                                of this theme was to implement a system to calculate the percentage of
+                                resemblance of source codes of developers and to produce alerts in case
+                                of potential cheats.
 
-		</body>
-	</html>
+                            </li>
+                            <li>
+                                <b>Implementation of an overall score calculation process per user</b><br/>
+                                CodinGame rankings were defined by competition and programming
+                                language in order to identify the best developers. The objective of this
+                                theme was to implement a global calculation process in order to achieve a
+                                global ranking and an evolutionary graph for each participant.
+                            </li>
+                        </ul>
+                    </div>
+                    <h4 class="year">Freelance</h4>
+                    <div>
+                        <p> Adding new programming languages (Haskell, ObjectiveC, VB.Net, Go and Python3)
+                            to the CodinGame platform (www.codingame.com).
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single" period="period5">
+                    <h4 class="year">2013</h4>
+                    <div>
+                        <img src="img/montpellier2.png"
+                             style="width:200px"
+                             alt="Université de Montpellier"/>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-5" period="period5">
+                    <h4 class="year">2014 (5 months)</h4>
+                    <h2 class="title">
+                        <b>Research project</b><br/>
+                        LIRMM, supervised by Ms. Bringay Sandra <br/>
+                        Montpellier - France. <img src="img/france.png" width="24" alt="France"/><br/>
+                    </h2>
+                    <div style="float:left;">
+                        <b>Recommendation of messages and friends in a health forum based on unsupervised classification
+                            principles:</b> <br/>
+                        <p style="text-align: justify;font-size:12px">
+                            Content Management Systems (CMS) are websites with a wealth of information
+                            for users who want to post or search for informations, however, because of
+                            their exponential growth, assigning categories to partially structure
+                            information has become uncontrollable . The objective of this work was
+                            to evaluate the algorithms and the tools of text analysis and then propose
+                            an hybrid algorithm of automatic recommendation of multi-categories and similar
+                            contents, from the URL of a website.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-5" period="period5">
+                    <h4 class="year">2014 (4 months)</h4>
+                    <h2 class="title">
+                        <b>Summer Internship R&D</b><br/>
+                        Jalios, supervised by M. Dedieu Olivier <br/>
+                        Le Chesnay - France. <img src="img/france.png" width="24" alt="France"/><br/>
+                    </h2>
+                    <div style="float:left;">
+                        <b>Recommendation of multi-categories from a web article based on Multi-label
+                            classification and Named-entity recognition</b><br/>
+                        <p style="text-align: justify;font-size:12px">
+                            Discussion forums are spaces for asynchronous exchanges of text messages.
+                            This new mode of communication is very popular with patients because it
+                            is associated with a great freedom of speech due in particular to
+                            anonymity. The objective of this work was to develop a recommendation
+                            system based on an unsupervised classification based on the textual data
+                            posted on the forum www.cancerdusein.org.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period5">
+                    <h4 class="year">2015 (6 months)</h4>
+                    <h2 class="title">
+                        <b>Research Internship</b><br/>
+                        LIRMM, supervised by M. Servajean Maximilien, <br/>
+                        Montpellier - France. <img src="img/france.png" width="24" alt="France"/><br/>
+                    </h2>
+                    <div style="float:left;">
+                        <b>Users modeling for a large-scale crowdsourcing platform</b><br/>
+                        <p style="text-align: justify;font-size:12px">
+                            Crowdsourcing services are increasingly used because they enable low-cost
+                            tasks to be carried out by relying on Internet users. The objective of
+                            this study was to simulate the evaluation of the results of tasks carried
+                            out by users on a Crowdsourcing platform. User profiles were modeled using
+                            confusion matrices to represent the knowledge of the user undergoing a
+                            classification task, the latter being generated randomly by Monte Carlo
+                            simulation.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period6">
+                    <h4 class="year">2015</h4>
+                    <div>
+                        <img src="img/montpellier.png"
+                             style="width:200px"
+                             alt="Université de Montpellier"/>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-5" period="period6">
+                    <h4 class="year">2016 (5 months)</h4>
+                    <h2 class="title">
+                        <b>Research project</b><br/>
+                        IMAG, supervised by M. BRY Xavier <br/>
+                        Montpellier - France. <img src="img/france.png" width="24" alt="France"/><br/>
+                    </h2>
+                    <div style="float:left;">
+                        <b>Research for explanatory components by penalization</b><br/>
+                        <p style="text-align: justify;font-size:12px">
+                            The linear regression of a variable y of a matrix X of regressors is
+                            impossible to do directly in large dimension when the number of regressors
+                            in X is greater than the number of observation, in other words, the matrix X′X
+                            isn’t invertible, then the regression needs to be regularized.
+                            The work consisted in understanding a proposed new approach to regularization
+                            based on the extraction of components by penalization, then programming
+                            several variants, then testing and comparing them with conventional regression
+                            methods (e.g. Ridge, PLS, etc.) on real data.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-7" period="period6">
+                    <h4 class="year">2017 (6 months)</h4>
+                    <h2 class="title">
+                        <b>Research Internship</b><br/>
+                        Université Pau et Pays de l'Adour, supervised by M. LIQUE Benoit <br/>
+                        Anglet - France. <img src="img/france.png" width="24" alt="France"/><br/>
+                    </h2>
+                    <div style="float:left;">
+                        <b>Medico-economic modeling using a Markov model, and application in package R</b><br/>
+                        <p style="text-align: justify;font-size:12px">
+                            Methods of economic evaluation in health are a necessary instrument to compare
+                            the medical strategies that will be evaluated by health decision maker of the
+                            country (HAS in France) so that they can take a relevant decision (i.e. price,
+                            reimbursement, and so on). The objective of the internship was separated in two
+                            stages; (1) evaluate and analyze the Heemod package by modeling different
+                            real clinical decision-making cases in order to certify the choice of the
+                            package, (2) validate the results obtained with Heemod against the results
+                            obtained in Excel sheets (i.e. official documents per health authorities) in
+                            order to ensure the transparency of these results and to promote a new
+                            certified tool for the use of health authorities.
+                        </p>
+                    </div>
+                </section>
+                <section class="card-single col-md-6 col-lg-6" period="period7">
+                    <h4 class="year">2017</h4>
+                    <h2>PhD. Director:
+                        <a href="https://www.hds.utc.fr/~sdesterc/dokuwiki/"
+                            target="_blank">
+                            M. Destercke Sébastien
+                        </a>
+                    </h2><br/>
+                    <div>
+                        <img src="img/utc.png"
+                             style="width:200px"
+                             alt="University of Applied Sciences for Technology Compiègne"/>
+                    </div>
+                </section>
+
+            </div>
+            <!--   </div> -->
+            <!-- ###   -->
+        </div>
+    </div>
+</section>
+
+<section class="section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-10 col-lg-8">
+                <div class="title text-center">
+                    <h2 class="mb-10">International Certifications</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <blockquote class="generic-blockquote">
+                    <b>Oracle Certified Programmer for the Java 2 Platform, SE 6.0</b>
+                </blockquote>
+<!--                <blockquote class="generic-blockquote">-->
+<!--                    <b>Oracle Certified Programmer for the Java 2 Platform, SE 6.0</b>-->
+<!--                </blockquote>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Start testimonial Area -->
+<section class="testimonial-area section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-10 col-lg-8">
+                <div class="title text-center">
+                    <h2 class="mb-10">Advisor’s Feedback about Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="active-testimonial">
+                <div class="single-testimonial item d-flex flex-row">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/elements/user1.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>
+                            ....coming soon....
+                        </p>
+                        <h4>xxx</h4>
+                        <p>CEO at yyy</p>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/elements/user2.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>
+                            ....coming soon....
+                        </p>
+                        <h4>yyy</h4>
+                        <p>CEO at zz</p>
+                    </div>
+                </div>
+                <div class="single-testimonial item d-flex flex-row">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/elements/user2.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>
+                            ....coming soon....
+                        </p>
+                        <h4>cccc</h4>
+                        <p>CEO at zzz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"><br/></div>
+    </div>
+</section>
+<!-- End testimonial Area -->
+
+<!-- start footer Area -->
+<footer class="footer-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-8">
+                <div class="single-footer-widget">
+                    <p class="footer-text">
+                        <!-- Link back to Colorlib can't be removed.
+                        Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | This template is made with
+                        <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed.
+                        Template is licensed under CC BY 3.0. --></p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-8 col-sm-8 social-widget">
+                <div class="single-footer-widget">
+                    <div class="footer-social d-flex align-items-center"
+                         style="float: right">
+                        Let us be social&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/salmuz" target="_blank">
+                            <i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/salmuz" target="_blank">
+                            <i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ycarranza/" target="_blank">
+                            <i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/salmuz" target="_blank">
+                            <i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End footer Area -->
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/easing.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.tabs.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/simple-skillbar.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/main.js"></script>
+<script src="js/timeline.js"></script>
+</body>
+</html>

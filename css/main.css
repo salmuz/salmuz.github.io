@@ -97,14 +97,9 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
-  position: relative;
 }
 
-ol, ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 
 select {
   display: block;
@@ -2313,7 +2308,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 120px 0;
+  padding: 10px 0;
 }
 
 .alert-msg {
@@ -2443,7 +2438,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  height: 650px !important;
 }
 
 .banner-left h6 {
@@ -3037,7 +3032,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .about-content {
   margin-top: 70px;
-  padding: 90px 0px;
   text-align: center;
 }
 
@@ -4311,6 +4305,7 @@ dl.accordion.time-line:before {
 /* =================================== */
 /*  Footer Styles
 /* =================================== */
+
 .footer-area {
   background-color: #04091e;
 }
@@ -4483,3 +4478,14 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+.showCorsur{
+  cursor: pointer;
+  color: blue;
+}
+
+.showCorsur:hover{
+  color: blue;
+  text-decoration-color: black;
+}
+
