@@ -107,7 +107,7 @@ for(i in 1:10){
     X.cv.train <- as.matrix(data.inner[, -101])
     y.cv.train <- data.inner[, 101]
     cv.model <- cv.glmnet(X.cv.train, y.cv.train, alpha=alpha, 
-                          family = "multinomial",
+                          #family = "multinomial",
                           foldid = group.inner)
     err.lasso.mse[k] <- cv.model$cvm[which(cv.model$lambda == 
                                              cv.model$lambda.min)]
@@ -122,10 +122,9 @@ for(i in 1:10){
   X.test <- as.matrix(data.validation[, -101])
   y.test <- data.validation[, 101]
   model.fit <- glmnet(X.train, y.train, lambda = best.lambda, 
-                      family = "multinomial",
+                      #family = "multinomial",
                       alpha = best.alpha)
-  # classification
-  # table(y.test)
+  # classification (confusion matrix) 
   err.reg.mse[i] <- mean((y.test - predict(model.fit, newx=X.test))^2)
 }
 boxplot(err.reg.mse)
