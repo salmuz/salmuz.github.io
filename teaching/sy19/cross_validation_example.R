@@ -124,7 +124,7 @@ for(i in 1:10){
   model.fit <- glmnet(X.train, y.train, lambda = best.lambda, 
                       #family = "multinomial",
                       alpha = best.alpha)
-  # classification (confusion matrix) 
+  # classification (confusion matrix)
   err.reg.mse[i] <- mean((y.test - predict(model.fit, newx=X.test))^2)
 }
 boxplot(err.reg.mse)
